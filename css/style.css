@@ -4,47 +4,47 @@ body {
 
 header {
   background-color: #444;
+
   height: 100px;
 }
-
 nav {
   width: 960px;
   margin: auto;
-}
 
+}
 header img {
   margin-top: 15px;
   float: left;
-}
 
+}
 header span {
   display: inline-block;
   line-height: 100px;
   margin-left: 90px;
-}
 
+}
 header span:nth-child(2) {
   margin-left: 30px;
-}
 
+}
 nav a {
   text-decoration: none;
   color: #aaa;
-}
 
+}
 main {
   width: 960px;
   margin: auto;
-}
 
+}
 main img {
   margin-top: 30px;
-}
 
+} 
 main li:first-child{
   margin-left: 0px;
-}
 
+}
 main li {
   margin-left: 30px;
   float: left;
@@ -54,17 +54,6 @@ main article {
   width: 50%;
   float: right;
   margin-top: 30px;
-}
-
-
-
-main {
-  height: 330px;
-  overflow-wrap: auto;
-  margin-top: 5px;
-  margin-left: 30px;
-  font-style: italic;
-  line-height: 20px;
 }
 
 main h2 {
@@ -89,12 +78,11 @@ article div {
   padding: 10px 30px;
   display: inline-block;
   font-size: 20px;
-  padding: 4px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 article div:hover {
-  background-color: rgb(255, 0, 217);
+  background-color: rgb(255, 0, 144);
   transition: 350ms;
 }
 
